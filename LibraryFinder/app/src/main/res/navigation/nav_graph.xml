@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="ie.ul.libraryfinder.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home2_to_signIn"
+            app:destination="@id/signIn" />
+        <action
+            android:id="@+id/action_home2_to_libraryMap"
+            app:destination="@id/libraryMap" />
+    </fragment>
+    <fragment
+        android:id="@+id/signIn"
+        android:name="ie.ul.libraryfinder.SignIn"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" />
+    <fragment
+        android:id="@+id/libraryMap"
+        android:name="ie.ul.libraryfinder.LibraryMap"
+        android:label="fragment_library_map"
+        tools:layout="@layout/fragment_library_map" />
+</navigation>

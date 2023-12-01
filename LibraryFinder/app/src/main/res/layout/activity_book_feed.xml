@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101010"
+    android:backgroundTint="#131313"
+    android:foregroundTint="#F3EBEB"
+    tools:context=".BookFeed">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idRVCourse"
+        android:layout_width="match_parent"
+        android:layout_height="606dp"
+        android:background="#373636" />
+
+    <Button
+        android:id="@+id/uploadButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="78dp"
+        android:backgroundTint="#E64343"
+        android:text="Upload a Book Rating" />
+
+    <EditText
+        android:id="@+id/bookTitleEdit"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/uploadButton"
+        android:layout_marginBottom="-59dp"
+        android:backgroundTint="#F6F0F0"
+        android:ems="10"
+        android:hint="Title"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#FAF5F5"
+        android:textColorHint="#D3CFCF" />
+
+    <EditText
+        android:id="@+id/ratingEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/uploadButton"
+        android:layout_marginStart="22dp"
+        android:layout_marginBottom="-57dp"
+        android:layout_toEndOf="@+id/bookTitleEdit"
+        android:backgroundTint="#EFEBEB"
+        android:ems="10"
+        android:hint="Rating 1-5"
+        android:textColorHint="#D3CFCF"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#EFEAEA" />
+
+</RelativeLayout>

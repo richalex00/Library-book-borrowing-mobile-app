@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "66928224607",
+    "project_id": "libfinder-424e3",
+    "storage_bucket": "libfinder-424e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66928224607:android:d082fd3ad6c93ff78f2eea",
+        "android_client_info": {
+          "package_name": "ie.ul.libraryfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66928224607-8deu6g1tgirf0ocjvhdk4a5bp6s5f83s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI3zIb4J0ycmmk12X31GpiZPmmGUgOwR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66928224607-8deu6g1tgirf0ocjvhdk4a5bp6s5f83s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
